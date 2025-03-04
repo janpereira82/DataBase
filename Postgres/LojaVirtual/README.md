@@ -152,9 +152,10 @@ sudo -u postgres psql -d lojavirtual -f 04g_insert_complementares.sql
 ```
 
 ## Contribuição
-
 Sinta-se à vontade para contribuir com melhorias nos scripts ou na documentação através de pull requests.
 
 ## Licença
-
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## 👨‍💻 Autor
+[Jan Pereira](https://github.com/janpereira82)
