@@ -173,3 +173,7 @@ mongosh --file scripts/query_artigos.js
 - Os scripts de população limpam dados existentes antes de inserir novos
 - Senhas em ambiente de desenvolvimento são simplificadas
 - Total de 45 fontes RSS com cobertura geográfica: Brasil e Portugal
+
+## 👨‍💻 Autor
+[Jan Pereira](https://github.com/janpereira82)
+
