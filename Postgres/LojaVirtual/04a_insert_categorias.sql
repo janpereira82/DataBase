@@ -1,0 +1,370 @@
+-- Inserção de categorias
+INSERT INTO tb_categoria (
+            cod_categoria,
+            desc_nome,
+            desc_slug,
+            img_icone,
+            flag_ativo,
+            num_ordem,
+            cod_categoria_pai
+        ) VALUES
+(
+                1,
+                'Smartphones',
+                'smartphones',
+                'fa-mobile',
+                true,
+                1,
+                NULL
+            ),
+(
+                2,
+                'Notebooks',
+                'notebooks',
+                'fa-laptop',
+                true,
+                2,
+                NULL
+            ),
+(
+                3,
+                'Smart TVs',
+                'smart-tvs',
+                'fa-tv',
+                true,
+                3,
+                NULL
+            ),
+(
+                4,
+                'Eletrodomesticos',
+                'eletrodomesticos',
+                'fa-home',
+                true,
+                4,
+                NULL
+            ),
+(
+                5,
+                'Games',
+                'games',
+                'fa-gamepad',
+                true,
+                5,
+                NULL
+            ),
+(
+                6,
+                'Informatica',
+                'informatica',
+                'fa-desktop',
+                true,
+                6,
+                NULL
+            ),
+(
+                7,
+                'Audio',
+                'audio',
+                'fa-headphones',
+                true,
+                7,
+                NULL
+            ),
+(
+                8,
+                'Cameras',
+                'cameras',
+                'fa-camera',
+                true,
+                8,
+                NULL
+            ),
+(
+                    9,
+                    'iPhone',
+                    'iphone',
+                    NULL,
+                    true,
+                    1,
+                    1
+                ),
+(
+                    10,
+                    'Samsung Galaxy',
+                    'samsung-galaxy',
+                    NULL,
+                    true,
+                    2,
+                    1
+                ),
+(
+                    11,
+                    'Xiaomi',
+                    'xiaomi',
+                    NULL,
+                    true,
+                    3,
+                    1
+                ),
+(
+                    12,
+                    'Motorola',
+                    'motorola',
+                    NULL,
+                    true,
+                    4,
+                    1
+                ),
+(
+                    13,
+                    'Gaming',
+                    'gaming',
+                    NULL,
+                    true,
+                    1,
+                    2
+                ),
+(
+                    14,
+                    'Ultrabooks',
+                    'ultrabooks',
+                    NULL,
+                    true,
+                    2,
+                    2
+                ),
+(
+                    15,
+                    '2 em 1',
+                    '2-em-1',
+                    NULL,
+                    true,
+                    3,
+                    2
+                ),
+(
+                    16,
+                    'MacBooks',
+                    'macbooks',
+                    NULL,
+                    true,
+                    4,
+                    2
+                ),
+(
+                    17,
+                    'TVs 4K',
+                    'tvs-4k',
+                    NULL,
+                    true,
+                    1,
+                    3
+                ),
+(
+                    18,
+                    'TVs 8K',
+                    'tvs-8k',
+                    NULL,
+                    true,
+                    2,
+                    3
+                ),
+(
+                    19,
+                    'OLED',
+                    'oled',
+                    NULL,
+                    true,
+                    3,
+                    3
+                ),
+(
+                    20,
+                    'QLED',
+                    'qled',
+                    NULL,
+                    true,
+                    4,
+                    3
+                ),
+(
+                    21,
+                    'Geladeiras',
+                    'geladeiras',
+                    NULL,
+                    true,
+                    1,
+                    4
+                ),
+(
+                    22,
+                    'Fogoes',
+                    'fogoes',
+                    NULL,
+                    true,
+                    2,
+                    4
+                ),
+(
+                    23,
+                    'Lavadoras',
+                    'lavadoras',
+                    NULL,
+                    true,
+                    3,
+                    4
+                ),
+(
+                    24,
+                    'Micro-ondas',
+                    'micro-ondas',
+                    NULL,
+                    true,
+                    4,
+                    4
+                ),
+(
+                    25,
+                    'PlayStation',
+                    'playstation',
+                    NULL,
+                    true,
+                    1,
+                    5
+                ),
+(
+                    26,
+                    'Xbox',
+                    'xbox',
+                    NULL,
+                    true,
+                    2,
+                    5
+                ),
+(
+                    27,
+                    'Nintendo',
+                    'nintendo',
+                    NULL,
+                    true,
+                    3,
+                    5
+                ),
+(
+                    28,
+                    'Acessorios',
+                    'acessorios',
+                    NULL,
+                    true,
+                    4,
+                    5
+                ),
+(
+                    29,
+                    'Monitores',
+                    'monitores',
+                    NULL,
+                    true,
+                    1,
+                    6
+                ),
+(
+                    30,
+                    'Impressoras',
+                    'impressoras',
+                    NULL,
+                    true,
+                    2,
+                    6
+                ),
+(
+                    31,
+                    'Perifericos',
+                    'perifericos',
+                    NULL,
+                    true,
+                    3,
+                    6
+                ),
+(
+                    32,
+                    'Componentes',
+                    'componentes',
+                    NULL,
+                    true,
+                    4,
+                    6
+                ),
+(
+                    33,
+                    'Fones',
+                    'fones',
+                    NULL,
+                    true,
+                    1,
+                    7
+                ),
+(
+                    34,
+                    'Caixas de Som',
+                    'caixas-de-som',
+                    NULL,
+                    true,
+                    2,
+                    7
+                ),
+(
+                    35,
+                    'Soundbars',
+                    'soundbars',
+                    NULL,
+                    true,
+                    3,
+                    7
+                ),
+(
+                    36,
+                    'Amplificadores',
+                    'amplificadores',
+                    NULL,
+                    true,
+                    4,
+                    7
+                ),
+(
+                    37,
+                    'DSLR',
+                    'dslr',
+                    NULL,
+                    true,
+                    1,
+                    8
+                ),
+(
+                    38,
+                    'Mirrorless',
+                    'mirrorless',
+                    NULL,
+                    true,
+                    2,
+                    8
+                ),
+(
+                    39,
+                    'Action Cams',
+                    'action-cams',
+                    NULL,
+                    true,
+                    3,
+                    8
+                ),
+(
+                    40,
+                    'Webcams',
+                    'webcams',
+                    NULL,
+                    true,
+                    4,
+                    8
+                );

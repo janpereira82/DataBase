@@ -1,0 +1,89 @@
+-- Inserção de marcas
+INSERT INTO tb_marca (
+            cod_marca,
+            desc_nome,
+            desc_slug,
+            img_logo,
+            desc_website,
+            flag_ativo
+        ) VALUES
+(
+                1,
+                'Apple',
+                'apple',
+                'apple-logo.png',
+                'https://www.apple.com',
+                true
+            ),
+(
+                2,
+                'Samsung',
+                'samsung',
+                'samsung-logo.png',
+                'https://www.samsung.com',
+                true
+            ),
+(
+                3,
+                'LG',
+                'lg',
+                'lg-logo.png',
+                'https://www.lg.com',
+                true
+            ),
+(
+                4,
+                'Sony',
+                'sony',
+                'sony-logo.png',
+                'https://www.sony.com',
+                true
+            ),
+(
+                5,
+                'Dell',
+                'dell',
+                'dell-logo.png',
+                'https://www.dell.com',
+                true
+            ),
+(
+                6,
+                'Lenovo',
+                'lenovo',
+                'lenovo-logo.png',
+                'https://www.lenovo.com',
+                true
+            ),
+(
+                7,
+                'Asus',
+                'asus',
+                'asus-logo.png',
+                'https://www.asus.com',
+                true
+            ),
+(
+                8,
+                'Acer',
+                'acer',
+                'acer-logo.png',
+                'https://www.acer.com',
+                true
+            ),
+(
+                9,
+                'Microsoft',
+                'microsoft',
+                'microsoft-logo.png',
+                'https://www.microsoft.com',
+                true
+            ),
+(
+                10,
+                'HP',
+                'hp',
+                'hp-logo.png',
+                'https://www.hp.com',
+                true
+            );
