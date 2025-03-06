@@ -1,0 +1,8 @@
+# SQLite database files
+*.sqlite
+*.db
+*.sqlite3
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
