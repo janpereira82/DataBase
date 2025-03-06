@@ -48,3 +48,6 @@ sqlite3 certifydb.sqlite ".read verify_database.sql"
 ```
 
 Este comando mostrará um resumo das tabelas e seus registros.
+
+## 👨‍💻 Autor
+[Jan Pereira](https://github.com/janpereira82)
